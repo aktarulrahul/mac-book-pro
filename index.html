@@ -14,7 +14,7 @@
   <body>
     <main>
       <!-- Main Body start -->
-      <div class="container p-10 text-gray-800">
+      <div class="container p-10">
         <!-- Product body start -->
         <div class="grid md:grid-cols-2 grid-cols-1 mb-4">
           <!-- Images start-->
@@ -26,7 +26,7 @@
           <div class="mx-4">
             <!-- Product summary start -->
             <div class="mb-10">
-              <h1 class="text-4xl font-medium mb-4">
+              <h1 class="text-4xl font-medium mb-4 text-gray-800">
                 Customize Your Blue 24-inch<br />iMac with Apple M1 chip
               </h1>
               <p class="text-gray-600">
@@ -38,17 +38,158 @@
             </div>
             <!-- Product summary end -->
             <!-- Memory section start -->
-            <h3 class="text-2xl font-medium">Memory</h3>
+            <div class="mb-4">
+              <h3 class="text-lg font-medium mb-2">Memory</h3>
+              <div class="md:flex items-center gap-2">
+                <div
+                  class="
+                    py-2
+                    my-1
+                    px-4
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="memory-8"
+                >
+                  <p class="text-gray-600">8GB unified memory</p>
+                </div>
+                <div
+                  class="
+                    py-2
+                    my-1
+                    px-4
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="memory-16"
+                >
+                  <p class="text-gray-600">16GB unified memory</p>
+                </div>
+              </div>
+            </div>
             <!-- Memory section end -->
             <!-- Storage section start -->
-            <h3 class="text-2xl font-medium">Storage</h3>
+            <div class="mb-4">
+              <h3 class="text-lg font-medium mb-2">Storage</h3>
+              <div class="md:flex items-center gap-2">
+                <div
+                  class="
+                    py-2
+                    my-1
+                    px-4
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="storage-256"
+                >
+                  <p class="text-gray-600">256GB SSD storage</p>
+                </div>
+                <div
+                  class="
+                    py-2
+                    my-1
+                    px-4
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="storage-512"
+                >
+                  <p class="text-gray-600">512GB SSD storage</p>
+                </div>
+                <div
+                  class="
+                    py-2
+                    my-1
+                    px-4
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="storage-1t"
+                >
+                  <p class="text-gray-600">1TB unified memory</p>
+                </div>
+              </div>
+            </div>
             <!-- Storage section end -->
             <!-- delivery section start -->
-            <h3 class="text-2xl font-medium">Choose your delivery option</h3>
+            <div class="mb-4">
+              <h3 class="text-lg font-medium mb-2">
+                Choose your delivery option
+              </h3>
+              <div class="md:flex items-center gap-2">
+                <div
+                  class="
+                    p-2
+                    my-1
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="delivery-25"
+                >
+                  <p class="text-gray-600">
+                    Friday, Aug 25 FREE Prime Devilery
+                  </p>
+                </div>
+                <div
+                  class="
+                    p-2
+                    my-1
+                    border
+                    rounded
+                    cursor-pointer
+                    hover:bg-gray-200 hover:border-gray-400 hover:shadow-lg
+                  "
+                  id="delivery-21"
+                >
+                  <p class="text-gray-600">
+                    Friday, Aug 21 Delivery charge $20
+                  </p>
+                </div>
+              </div>
+            </div>
             <!-- delivery section end -->
             <!-- calculation section start -->
+            <div class="flex">
+              <div class="divide-y divide-solid">
+                <p class="text-base font-medium p-1">Best Price</p>
+                <p class="text-base font-medium p-1">Extra Memory Cost</p>
+                <p class="text-base font-medium p-1">Extra Storage Cost</p>
+                <p class="text-base font-medium p-1">Delivery charge</p>
+                <p class="text-base font-medium p-1 border-b-4">Total Price</p>
+              </div>
+              <div class="divide-y divide-solid">
+                <p class="text-base font-medium p-1 px-4">$<span id="best-price">1299</span></p>
+                <p class="text-base font-medium p-1 px-4">$<span id="memory-cost">0</p>
+                <p class="text-base font-medium p-1 px-4">$<span id="storage-cost">0</p>
+                <p class="text-base font-medium p-1 px-4">$<span id="delivery-cost">0</p>
+                <p class="text-base font-medium p-1 px-4 border-b-4">
+                  $<span id="total-price">1299
+                </p>
+              </div>
+            </div>
             <!-- calculation section end -->
             <!-- Promo Code section start -->
+            <div class="my-4">
+              <p class="text-lg ">
+                Add Pomo Code
+              </p>
+              <div class="">
+                <input type="text" id="promo-input" class="text-center border rounded p-2">
+                <button type="submit" id="promo-submit" class="text-lg text-center border rounded p-2 text-white bg-red-600">Apply</button>
+              </div>
+            </div>
             <!-- Promo Code section end -->
             <!-- Product Details End-->
           </div>
